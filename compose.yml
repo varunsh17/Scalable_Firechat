@@ -1,0 +1,11 @@
+version: '3'
+services:
+  app:
+    container_name: app_varun
+    restart: always
+    build: .
+    ports:
+      - "3000:3000"
+    volumes:
+      - .:/varun
+      - /varun/node_modules

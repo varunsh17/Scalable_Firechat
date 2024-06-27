@@ -1,3 +1,13 @@
-export default function Home(){
-    return <h1>fewf</h1>
-}
+// pages/index.tsx
+import React from 'react';
+import Chat from './components/Chat';
+
+const Home: React.FC = () => {
+  return (
+    <div>
+      <Chat />
+    </div>
+  );
+};
+
+export default Home;

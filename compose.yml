@@ -6,6 +6,6 @@ services:
     build: .
     ports:
       - "3000:3000"
-    volumes:
-      - .:/varun
-      - /varun/node_modules
+    # volumes:
+    #   - .:/varun 
+    #   - /varun/node_modules
